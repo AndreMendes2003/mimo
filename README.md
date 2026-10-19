@@ -1,7 +1,7 @@
 # Mimo - site estático
 
-Páginas públicas do app **Mimo** (app de foco, projeto de TCC — PUC Minas),
-publicadas pelo GitHub Pages a partir da branch `main` (raiz).
+Páginas públicas do app **Mimo** (app de foco, projeto de TCC - PUC Minas),
+publicadas pelo GitHub Pages.
 
 ## Páginas
 
