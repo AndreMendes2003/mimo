@@ -1,0 +1,131 @@
+<!doctype html>
+<!--
+  ============================================================
+  URLs usadas nesta página (alterar aqui e nos href abaixo):
+  GRUPO_PILOTO   = https://groups.google.com/g/mimo-piloto
+  PLAY_STORE     = https://play.google.com/store/apps/details?id=io.github.andremendes2003.mimo
+  PLANO_B_TESTE  = https://play.google.com/apps/testing/io.github.andremendes2003.mimo
+  PRIVACIDADE    = privacidade.html
+  CONTATO        = [PLACEHOLDER: e-mail]
+  ------------------------------------------------------------
+  Página estática: sem JavaScript, sem analytics, sem cookies,
+  sem coleta de dados.
+  ============================================================
+-->
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Mimo - Participar do piloto</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --fundo: #FBF7F2; --cartao: #ffffff; --texto: #1f2330; --suave: #4a4f5e;
+    --primaria: #3A4BC0; --sobre-primaria: #ffffff;
+    --aviso-fundo: #FFF1C9; --aviso-borda: #B7791F; --borda: #e2ddd5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fundo: #15171f; --cartao: #1e212b; --texto: #e6e8ef; --suave: #b9bdc9;
+      --primaria: #9aa8ff; --sobre-primaria: #10121a;
+      --aviso-fundo: #3a2f12; --aviso-borda: #e0b44f; --borda: #2e3240;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--fundo); color: var(--texto);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.0625rem; line-height: 1.6;
+  }
+  main { max-width: 40rem; margin: 0 auto; padding: 1.5rem 1rem 2rem; }
+  h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 1rem; }
+  h2 { font-size: 1.25rem; line-height: 1.3; margin: 0 0 .5rem; }
+  h3 { font-size: 1.05rem; margin: 1rem 0 .25rem; }
+  p { margin: 0 0 .75rem; }
+  a { color: var(--primaria); }
+  .aviso {
+    background: var(--aviso-fundo); border-left: 6px solid var(--aviso-borda);
+    border-radius: 8px; padding: 1rem; margin: 0 0 1.5rem;
+  }
+  .aviso p:last-child { margin: 0; }
+  .passo {
+    background: var(--cartao); border: 1px solid var(--borda);
+    border-radius: 12px; padding: 1.25rem 1rem; margin: 0 0 1rem;
+  }
+  .botao {
+    display: block; width: 100%; min-height: 3.5rem; padding: 1rem;
+    margin: .25rem 0 .75rem; border-radius: 10px;
+    background: var(--primaria); color: var(--sobre-primaria);
+    font-size: 1.2rem; font-weight: 700; text-align: center; text-decoration: none;
+  }
+  .botao:focus-visible { outline: 3px solid var(--texto); outline-offset: 3px; }
+  .dica { color: var(--suave); font-size: .95rem; }
+  ul { padding-left: 1.25rem; margin: 0 0 .75rem; }
+  footer {
+    border-top: 1px solid var(--borda); margin-top: 2rem; padding-top: 1rem;
+    color: var(--suave); font-size: .95rem;
+  }
+  footer p { margin: 0 0 .4rem; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Mimo: participar do piloto</h1>
+
+<div class="aviso" role="note">
+  <p><strong>Antes de começar:</strong> faça tudo <strong>no seu celular Android</strong>.</p>
+  <p>Use a <strong>mesma conta Google</strong> que está logada na Play Store do celular, nos passos 1 e 2.</p>
+</div>
+
+<section class="passo" aria-labelledby="p1">
+  <h2 id="p1">Passo 1: entrar no grupo</h2>
+  <a class="botao" href="https://groups.google.com/g/mimo-piloto" target="_blank" rel="noopener noreferrer">1. Entrar no grupo</a>
+  <p>Na página que abrir, toque em <strong>“Participar do grupo”</strong>.</p>
+  <p class="dica">Depois volte para esta página.</p>
+</section>
+
+<section class="passo" aria-labelledby="p2">
+  <h2 id="p2">Passo 2: instalar o app</h2>
+  <a class="botao" href="https://play.google.com/store/apps/details?id=io.github.andremendes2003.mimo" target="_blank" rel="noopener noreferrer">2. Instalar o app</a>
+  <p>Na Play Store, toque em <strong>“Instalar”</strong>.</p>
+  <p class="dica">Só funciona depois do passo 1.</p>
+</section>
+
+<section class="passo" aria-labelledby="p3">
+  <h2 id="p3">Passo 3: abrir o app e dar as permissões</h2>
+  <p>Abra o Mimo e aceite as permissões que ele pedir:</p>
+  <ul>
+    <li><strong>Acesso ao uso</strong></li>
+    <li><strong>Notificações</strong></li>
+  </ul>
+  <p>Elas servem para o app saber quanto tempo você passa em cada app e para te mandar lembretes de foco.</p>
+</section>
+
+<section class="passo" aria-labelledby="p4">
+  <h2 id="p4">Deu problema?</h2>
+
+  <h3>O app não aparece na loja</h3>
+  <p>Confira se você entrou no grupo (passo 1) com a <strong>mesma conta</strong> da Play Store. Depois aguarde alguns minutos e tente de novo.</p>
+
+  <h3>Tenho mais de uma conta no celular</h3>
+  <p>Na Play Store, toque na sua foto no canto de cima e troque para a conta que entrou no grupo.</p>
+
+  <h3>Pulei o passo 1</h3>
+  <p>Sem entrar no grupo, o passo 2 não funciona. Faça o passo 1 e depois o passo 2 de novo.</p>
+
+  <h3>Ainda não deu certo? Plano B</h3>
+  <p>Abra este link, toque em <strong>“Tornar-se testador”</strong> e depois no link para baixar na Play Store:</p>
+  <p><a href="https://play.google.com/apps/testing/io.github.andremendes2003.mimo" target="_blank" rel="noopener noreferrer">Página de teste do Mimo</a></p>
+</section>
+
+<footer>
+  <p><a href="privacidade.html">Política de Privacidade</a></p>
+  <p>Contato: [PLACEHOLDER: e-mail]</p>
+  <p>Projeto de TCC — PUC Minas</p>
+</footer>
+
+</main>
+</body>
+</html>
