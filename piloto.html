@@ -23,11 +23,13 @@
     color-scheme: light dark;
     --fundo: #FBF7F2; --texto: #1f2330; --suave: #4a4f5e;
     --primaria: #3A4BC0; --sobre-primaria: #ffffff; --borda: #e2ddd5;
+    --borda-passo: #c9c1b4;
   }
   @media (prefers-color-scheme: dark) {
     :root {
       --fundo: #15171f; --texto: #e6e8ef; --suave: #b9bdc9;
       --primaria: #9aa8ff; --sobre-primaria: #10121a; --borda: #2e3240;
+      --borda-passo: #4a5066;
     }
   }
   * { box-sizing: border-box; }
@@ -41,7 +43,7 @@
   .sub { color: var(--suave); margin: 0 0 2rem; }
   .passo {
     margin: 0 0 1.25rem; padding: 1rem;
-    border: 1px solid var(--borda); border-radius: 14px;
+    border: 2px solid var(--borda-passo); border-radius: 14px;
   }
   .botao {
     display: block; padding: 1.2rem 1rem; border-radius: 12px;
