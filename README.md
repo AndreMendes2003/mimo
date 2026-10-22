@@ -12,5 +12,4 @@ publicadas pelo GitHub Pages.
 > ⚠️ **Não renomear, mover ou apagar `privacidade.html`.** A URL
 > `https://andremendes2003.github.io/mimo/privacidade.html` está cadastrada no Google Play Console.
 
-Tudo é HTML estático com CSS inline: sem build, sem frameworks, sem JavaScript, sem analytics, sem cookies.
-As URLs usadas em `piloto.html` ficam listadas num bloco comentado no topo do arquivo.
+HTML estático apenas.
