@@ -57,6 +57,14 @@
     background: var(--nota-fundo); border-left: 4px solid var(--primaria);
     border-radius: 8px; font-size: 1rem;
   }
+  .extra { margin: 2rem 0 0; }
+  .botao-sec {
+    display: block; padding: .9rem 1rem; border-radius: 12px;
+    border: 2px solid var(--primaria); color: var(--primaria);
+    font-weight: 700; text-decoration: none;
+  }
+  .botao-sec:focus-visible { outline: 3px solid var(--texto); outline-offset: 3px; }
+  .dica { color: var(--suave); font-size: .95rem; }
   .print { display: block; width: 100%; margin-top: .75rem; border-radius: 10px; border: 1px solid var(--borda); }
   footer {
     border-top: 1px solid var(--borda); margin-top: 2.5rem; padding-top: 1rem;
@@ -82,11 +90,16 @@
 <div class="passo">
   <p class="instrucao"><strong>2. Pronto! Agora é só esperar o e-mail.</strong></p>
   <p class="instrucao">Em breve você receberá um e-mail com o link para instalar o Mimo. Não chegou? Confira a caixa de <strong>Spam</strong>.</p>
-  <p class="nota"><strong>Observação:</strong> você pode tentar instalar agora <a href="https://play.google.com/apps/testing/io.github.andremendes2003.mimo" target="_blank" rel="noopener noreferrer">tocando aqui</a> e depois em <strong>"Tornar-se testador"</strong>. Se aparecer <strong>"Item não encontrado"</strong>, é porque a Play Store ainda está liberando o seu acesso, o que pode levar vários minutos.</p>
+  <p class="nota"><strong>Observação:</strong> você pode tentar instalar agora <a href="https://play.google.com/apps/testing/io.github.andremendes2003.mimo" target="_blank" rel="noopener noreferrer">tocando aqui</a> e depois em <strong>"Tornar-se testador"</strong>. Se aparecer <strong>"Item não encontrado"</strong>, é porque a Play Store ainda está liberando o seu acesso, o que pode levar vários.</p>
 </div>
 
 <div class="passo">
   <p class="instrucao"><strong>3.</strong> Instale pelo link do e-mail, abra o Mimo e aceite as permissões.</p>
+</div>
+
+<div class="extra">
+  <a class="botao-sec" href="https://play.google.com/store/apps/details?id=io.github.andremendes2003.mimo" target="_blank" rel="noopener noreferrer">Página do Mimo na Play Store</a>
+  <p class="instrucao dica">Só funciona depois que o seu acesso for liberado. Útil para reinstalar ou atualizar o app.</p>
 </div>
 
 <footer>
